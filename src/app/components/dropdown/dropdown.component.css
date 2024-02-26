@@ -1,0 +1,41 @@
+.three_dots {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    /* right:70px; */
+    left: 81%;
+    background-color: #282828;
+    /* border: 1px solid #ccc; */
+    border-radius: 4px;
+    /* padding: 5px 0; */
+    z-index: 1000; /* Ensure the dropdown appears above other elements */
+    overflow: hidden;
+  }
+  
+  .dropdown-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .dropdown-menu ul li {
+    color: white;
+    text-align: center;
+    padding: 5px 15px;
+    cursor: pointer;
+  }
+  
+  .dropdown-menu ul li:hover {
+    overflow: hidden;
+    background-color: #525151;
+  }
+
+  

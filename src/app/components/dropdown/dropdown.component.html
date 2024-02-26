@@ -1,0 +1,13 @@
+<div class="three_dots" (click)="toggleDropdownMenu()">
+    <i class="fa-solid fa-ellipsis-vertical"></i>
+  </div>
+
+  <!-- Dropdown menu -->
+  <div *ngIf="showDropdownMenu" class="dropdown-menu">
+    <!-- Dropdown menu items -->
+    <ul>
+      <a routerLink = "/settings" ><li>Settings</li></a>
+      <li>Menu Item 2</li>
+      <li>Menu Item 3</li>
+    </ul>
+  </div>

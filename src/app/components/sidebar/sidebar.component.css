@@ -1,0 +1,261 @@
+.signin_icon{
+    position: relative;
+    top: 0px;
+    left: -6px;
+    height: fit-content;
+    width: fit-content;
+}
+
+.signin_button{
+    cursor: pointer;
+    box-sizing: border-box;
+    border: 1px solid #3e3d3d;
+    background-color: black;
+    position: relative;
+    right: -11px;
+    top: -1px;
+    display: flex;
+    color: #24a0ff;
+    height: 35px;
+    width: 99px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+ }
+
+.signin_button:hover{
+    background-color: #24a0ff43;
+}
+ .signin_text{
+    font-size: 14px;
+    color: #24a0ff;
+ }
+
+ .signin_text p{
+    font-weight: 500;
+ }
+
+
+
+
+
+
+
+
+.sidebar{
+    top: 54px;
+    position: fixed;
+    display: flex;
+    width: 240px;
+    flex-direction: column;
+    height: 100vh;
+    background-color: black;
+}
+
+.scrollable{
+    overflow-y: auto;
+}
+hr{
+    border: none;
+    height: 1px;
+    background-color: #3e3d3d;
+    
+}
+
+#container1,#container4,#container7,#container6{
+    margin-top: 12px;
+}
+#container3,#container5,#container6
+{
+    margin-bottom: 12px;
+}
+
+#container6{
+    height: 97px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor:default;
+}
+
+#container6:hover{
+    background-color: black;
+}
+#container1{
+    background-color: #4b4b4b8d;
+}
+
+.container{
+    justify-content: flex-start;
+    align-content: center;
+    display: flex;
+    gap: 29px;
+    margin-left: 12px;
+    position: relative;
+    height: 40px;
+    width: 202px;
+    /* background-color: aqua; */
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.container:hover{
+    background-color:#4b4b4b8d ;
+}
+
+.logo_for_sidebar{
+    
+    font-size: 17px;
+    position: relative;
+    top: 25%;
+    left: 7%;
+    height: 33px;
+    width: 25px;
+
+}
+.name_for_sidebar{
+    position: relative;
+    top: 31%;
+    left: 6px;
+    height: fit-content;
+    width: fit-content;
+}
+
+.name_for_sidebar p{
+    font-size: 14px;
+    color: white;
+    text-align: center;
+}
+
+.material-icons{
+    color: white;
+    position: absolute;
+    left: -4px;
+    top: -2px;
+}
+
+#container4,#container5{
+    /* top: 11px;
+    position: relative;
+    left: 15px; */
+    font-size: 14px;
+    color: white;
+    text-align: center;
+}
+
+
+#container4 p{
+    position: relative;
+    left: 18px;
+}
+#container5 p{
+    position: relative;
+    left: 17px;
+}
+
+.info_sidebar_text
+{
+    font-size: 14px;
+    position: relative;
+    color: white;
+    top: 8px;
+    left: -4px;
+}
+
+.copy_signin_button{
+    position: relative;
+    top: -2px;
+    left: -41px;
+}
+
+#container7{
+    margin-top: 12px;
+    height: 496px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    cursor: default;
+}
+
+#container7:hover{
+    background-color: black;
+}
+
+.all_cate{
+    margin: 0%;
+}
+.explore_title p{
+    position: relative;
+    top:7px;
+    left: -1px;
+    font-weight: 700;
+    color: white;
+    font-size: medium;
+}
+.categories{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aquamarine; */
+    height: 40px;
+    width: 202px;
+    position: relative;
+    top: -14px;
+}
+
+.cate_logo{
+    position: relative;
+    top: -13px;
+    right: 66px;
+}
+.cate_desc p{
+    
+    top: -3px;
+    right: 28px;
+    color: white;
+    position: relative;
+    font-size: 14px;
+}
+
+#music p{
+    position: relative;
+    right: 37px;
+}
+
+#music_icon
+{
+    position: absolute;
+    left: -13px;
+}
+
+#movies{
+    position: relative;
+    left: -6px;
+}
+
+#gaming{
+    position: relative;
+    left: -4px;
+}
+
+#Live{
+    position: relative;
+    left: -16px;
+}
+
+.you_inside_container{
+    top: 10px;
+    left: 14px;
+    position: relative;
+    height: fit-content;
+    width: 41%;
+}
+.history_inside_container{
+    top: 10px;
+    left: 14px;
+    position: relative;
+    height: fit-content;
+    width: 53%;
+}
